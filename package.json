@@ -1,0 +1,25 @@
+{
+  "name": "java-script-auguest-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate":"allure generate allure-results --clean",
+    "allure:open":"allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.3",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "xlsx": "^0.18.5"
+  }
+}
